@@ -14,7 +14,7 @@ Create a Promise that randomly resolves or rejects.
 Create a Promise that checks whether a number is even or odd.
 Simulate login success/failure using Promise.
 Simulate ATM withdrawal using Promise.
-Backend-Level Practice
+Backend-Level Practice:
 Fetch a cat fact using fetch().
 Fetch a joke API.
 Create a function getUser() that returns a Promise.
