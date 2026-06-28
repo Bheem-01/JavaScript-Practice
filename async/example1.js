@@ -1,4 +1,4 @@
 async function greet(){
     return "Hello world";
 }
-console.log(greet);
+console.log(greet());
