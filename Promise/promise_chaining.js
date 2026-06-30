@@ -1,4 +1,4 @@
-// Resolve 5, then double it using Promise Chaining.
+//Resolve 5, then double it using Promise Chaining.
 let promise = new Promise((resolve, reject)=>{
     resolve(5);
 });
@@ -16,3 +16,4 @@ promise.then((result)=>{
  it's like putting a full stop in the sentence.
   The chain ends there, so the next .then() has nothing to attach to,
    which causes the syntax error. */
+
