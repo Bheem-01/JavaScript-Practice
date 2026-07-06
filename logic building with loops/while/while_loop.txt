@@ -1,0 +1,51 @@
+What is a while Loop?
+
+A while loop is used to execute a block of code repeatedly as long as a given condition is true.
+
+Think of it like this:
+
+"While the condition is true, keep doing this work."
+
+The moment the condition becomes false, the loop stops.
+A while loop has two important parts:
+
+Condition
+Loop Body
+
+Unlike a for loop, the initialization and update are usually written outside the loo
+Difference Between for and while: 
+| `for` Loop                                                     | `while` Loop                                                             |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Initialization, condition, and update are written in one line. | Initialization, condition, and update are written separately.            |
+| Best when the number of iterations is known.                   | Best when the number of iterations is unknown or depends on a condition. |
+
+Common Beginner Mistake
+
+If you forget the update statement:
+
+let num = 1;
+
+while (num <= 10) {
+    console.log(num);
+}
+
+What happens?
+
+num always remains 1.
+The condition 1 <= 10 is always true.
+The loop never stops.
+
+This creates an infinite loop.
+⭐ Golden Rule (Remember Forever)
+
+A while loop always follows this order:
+
+Initialization
+      ↓
+Condition
+      ↓
+Loop Body
+      ↓
+Update
+      ↓
+Back to Condition
